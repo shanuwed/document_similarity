@@ -1,5 +1,21 @@
-from dataset import *
+#from dataset import *
 from rabin import *
+import random
+
+documents = [
+  "lipstick on a pig",
+  "you can put lipstick on a pig",
+  "you    can put lipstick on a pig but it's still a pig",
+  "you can put lipstick on a pig it's still a pig",
+  "i think they put some lipstick on a pig but it's still a pig",
+  "putting lipstick on a pig",
+  "you know you can put lipstick on a pig",
+  "they were going to send us binders full of women",
+  "they were going to send us binders of women",
+  "a b c d e f",
+  "a b c d f"]
+
+
 
 def parse_shingles(document, q):
   shingles = []
